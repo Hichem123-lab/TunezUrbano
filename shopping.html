@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BoldEssence Shop</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #4b2c5e;
+            color: #fff;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.8rem;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 1rem;
+        }
+
+        .shop-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            padding: 2rem;
+            justify-content: center;
+        }
+
+        .product-card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            width: 300px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product-card h2 {
+            font-size: 1.5rem;
+            margin: 1rem 0 0.5rem;
+        }
+
+        .product-card p {
+            padding: 0 1rem 1rem;
+            color: #555;
+        }
+
+        .product-card button {
+            background-color: #4b2c5e;
+            color: #fff;
+            border: none;
+            padding: 0.7rem 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .product-card button:hover {
+            background-color: #8e44ad;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>BoldEssence Shop</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cart.html">Cart</a>
+    </nav>
+</header>
+
+<main class="shop-container">
+    <div class="product-card">
+        <img src="images/oil.jpg" alt="Essential Bold Oil">
+        <h2>Essential Bold Oil</h2>
+        <p>Premium blend of oils for radiant hair and skin.</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="images/serum.jpg" alt="Bold Hair Serum">
+        <h2>Bold Hair Serum</h2>
+        <p>Strengthens and nourishes your hair deeply.</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="images/glow.jpg" alt="Essence Skin Glow">
+        <h2>Essence Skin Glow</h2>
+        <p>Gives your skin a natural, healthy radiance.</p>
+        <button>Add to Cart</button>
+    </div>
+
+</main>
+
+</body>
+</html>
